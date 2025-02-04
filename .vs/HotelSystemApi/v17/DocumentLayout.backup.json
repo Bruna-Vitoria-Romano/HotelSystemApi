@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D62E617-6F85-42B3-97D4-247CFFB730C3}|HotelSystemApi.Domain.Tests\\HotelSystemApi.Domain.Tests.csproj|c:\\users\\superframe force\\onedrive\\\u00E1rea de trabalho\\projects\\hotelsystemapi\\hotelsystemapi.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D62E617-6F85-42B3-97D4-247CFFB730C3}|HotelSystemApi.Domain.Tests\\HotelSystemApi.Domain.Tests.csproj|solutionrelative:hotelsystemapi.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC28EEF2-D866-4C87-9FC9-BAA9E48283F3}|HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj|c:\\users\\superframe force\\onedrive\\\u00E1rea de trabalho\\projects\\hotelsystemapi\\hotelsystemapi.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC28EEF2-D866-4C87-9FC9-BAA9E48283F3}|HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj|solutionrelative:hotelsystemapi.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7055613-CB0B-4E4F-BD58-F3EE92475F05}|HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj|c:\\users\\superframe force\\onedrive\\\u00E1rea de trabalho\\projects\\hotelsystemapi\\hotelsystemapi.domain\\entities\\hotelguest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7055613-CB0B-4E4F-BD58-F3EE92475F05}|HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj|solutionrelative:hotelsystemapi.domain\\entities\\hotelguest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BC9DDEF-5175-4A6B-A843-237941F677D8}|HotelSystemApi\\HotelSystemApi.csproj|c:\\users\\superframe force\\onedrive\\\u00E1rea de trabalho\\projects\\hotelsystemapi\\hotelsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC9DDEF-5175-4A6B-A843-237941F677D8}|HotelSystemApi\\HotelSystemApi.csproj|solutionrelative:hotelsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HotelGuest.cs",
-              "DocumentMoniker": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\Entities\\HotelGuest.cs",
-              "RelativeDocumentMoniker": "HotelSystemApi.Domain\\Entities\\HotelGuest.cs",
-              "ToolTip": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\Entities\\HotelGuest.cs",
-              "RelativeToolTip": "HotelSystemApi.Domain\\Entities\\HotelGuest.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAkwC4AAAB0AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi\\Program.cs",
+              "RelativeDocumentMoniker": "HotelSystemApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi\\Program.cs",
+              "RelativeToolTip": "HotelSystemApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T12:20:51.797Z",
+              "WhenOpened": "2025-02-04T13:05:12.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "HotelSystemApi.Domain.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "HotelSystemApi.Domain.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCcAAABIAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HotelSystemApi.Infra.IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Superframe Force\\OneDrive\\\u00C1rea de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "HotelSystemApi.Infra.IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T12:10:52.529Z",
+              "WhenOpened": "2025-02-04T12:19:30.394Z",
               "EditorCaption": ""
             }
           ]

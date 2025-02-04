@@ -9,14 +9,14 @@ namespace HotelSystemApi.Domain.Entities
 {
     public sealed class HotelGuest
     {
-        public HotelGuest(int iD, string name, string phoneNumber, string email, string password, int reserva)
+        public HotelGuest(int iD, string name, string phoneNumber, string email, string password, Rooms reservaId)
         {
             ID = iD;
             Name = name;
             PhoneNumber = phoneNumber;
             Email = email;
             Password = password;
-            Reserva = reserva;
+            ReservaId = reservaId;
         }
 
         public HotelGuest(int id, string name)
@@ -30,7 +30,7 @@ namespace HotelSystemApi.Domain.Entities
         public string PhoneNumber { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
-        public int Reserva { get; private set; }
+        public Rooms ReservaId { get; private set; }
 
         private void ValidationDomainName(string name)
         {

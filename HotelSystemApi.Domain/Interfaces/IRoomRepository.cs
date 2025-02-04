@@ -9,7 +9,7 @@ namespace HotelSystemApi.Domain.Interfaces
 {
     public interface IRoomRepository
     {
-        Task<IEnumerable<Rooms>> GetRoomsAsync(int? numberRoom);
+        Task<IEnumerable<Rooms>> GetRoomsAsync();
         Task<Rooms> GetRoomsByIdAsync(int? id);
         Task<Rooms> GetIdGuestByIdAsync(int? id);
         Task<Rooms> CreateAsync(Rooms room);

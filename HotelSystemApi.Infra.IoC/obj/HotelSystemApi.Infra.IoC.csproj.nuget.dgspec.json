@@ -4,14 +4,14 @@
     "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj": {
+    "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj",
-        "projectName": "HotelSystemApi.Infra.IoC",
-        "projectPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj",
+        "projectName": "HotelSystemApi.Domain",
+        "projectPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj",
         "packagesPath": "C:\\Users\\Superframe Force\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\obj\\",
+        "outputPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Superframe Force\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,170 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.Data\\HotelSystemApi.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.Data\\HotelSystemApi.Infra.Data.csproj",
+        "projectName": "HotelSystemApi.Infra.Data",
+        "projectPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.Data\\HotelSystemApi.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Superframe Force\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Superframe Force\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Domain\\HotelSystemApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj",
+        "projectName": "HotelSystemApi.Infra.IoC",
+        "projectPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\HotelSystemApi.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\Superframe Force\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Superframe Force\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.Data\\HotelSystemApi.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Superframe Force\\OneDrive\\Área de Trabalho\\Projects\\HotelSystemApi\\HotelSystemApi.Infra.Data\\HotelSystemApi.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

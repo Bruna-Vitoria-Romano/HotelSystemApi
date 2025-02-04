@@ -3,7 +3,7 @@ using HotelSystemApi.Domain.Entities;
 
 namespace HotelSystemApi.Domain.Tests
 {
-    public class UnitTest1
+    public class TestHotelGuest
     {
         [Fact]
         public void CreateGuest_WithValidParameters_ResultObjectValidState()

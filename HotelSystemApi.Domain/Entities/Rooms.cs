@@ -25,5 +25,7 @@ namespace HotelSystemApi.Domain.Entities
             DomainExceptionValidation.When(numberRoom < 0, "Invalid Number.");
             NumberRoom = numberRoom;
         }
+
+        // Conversão explícita para tipo enum status?
     }
 }
