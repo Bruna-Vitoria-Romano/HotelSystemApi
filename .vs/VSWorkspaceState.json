@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\HotelSystemApi.Domain",
-    "\\HotelSystemApi.Domain\\Entities",
-    "\\HotelSystemApi.Domain\\Interfaces"
+    ""
   ],
-  "SelectedNode": "\\HotelSystemApi.sln",
   "PreviewInSolutionExplorer": false
 }
