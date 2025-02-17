@@ -16,6 +16,10 @@ namespace HotelSystem.Application.Mappings
             CreateMap<HotelGuest, HotelGuestDTO>().ReverseMap();
             CreateMap<HotelReception, HotelReceptionDTO>().ReverseMap();
             CreateMap<Rooms, RoomsDTO>().ReverseMap();
+
+            CreateMap<HotelGuest, Rooms>()
+                .ForMember(dest => dest.IdGuest, opt => opt.MapFrom(src => src.ID));
+            // mapeamento um para um
         }
     }
 }

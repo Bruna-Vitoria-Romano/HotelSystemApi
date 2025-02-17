@@ -1,6 +1,6 @@
 ﻿using HotelSystem.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ namespace HotelSystem.Infra.Data.IdentityConfiguration
         {
             builder.HasKey(t => t.NumberRoom);
             builder.Property(p => p.Status).IsRequired();
-            //builder.Property(p => p.IdGuest).IsRequired();
+            builder.Property(p => p.IdGuest).IsRequired();
         }
     }
 }

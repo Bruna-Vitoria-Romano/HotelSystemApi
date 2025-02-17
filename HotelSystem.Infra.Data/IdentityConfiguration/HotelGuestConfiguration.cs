@@ -17,6 +17,6 @@ namespace HotelSystem.Infra.Data.IdentityConfiguration
             builder.Property(p => p.Name).HasMaxLength(250).IsRequired();
             builder.Property(p => p.Email).HasMaxLength(250).IsRequired();
             builder.Property(p => p.Password).HasMaxLength(50).IsRequired();
-        } 
+        }
     }
 }
